@@ -1,7 +1,6 @@
 # basic_neural_network
 
-AUTHOR: Patrick O'Connell
-Date: 11/10/2020
+This program was written by PATRICK CALLUM O'CONNELL in November, 2020.
 
 This is a perceptron-based neural network model built from scratch in python. By "from scratch," I mean that no neural network related libraries were used. This neural network is written only with the help of the "random" and "math" libraries.
 
