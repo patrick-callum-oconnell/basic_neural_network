@@ -7,6 +7,12 @@ This is a perceptron-based neural network model built from scratch in python. By
 
 The structure of this model is a two-layer neural network that takes in a vector representation of an 8x8 picture of a black and white hand drawn number, and outputs what number the model thinks it is. So, the first layer is made of 64 neurons which each take a value from 0.0-1.0, where 0.0 is completely white, and 1.0 is completely black. The output layer is made of 10 neurons, each representing an integer from 0-9 (which is what the network thinks the number is).
 
+Here is an example of a single example the program would use to train:
+( 0 0 0.45 0.9 0.5625 0.0625 0 0 0 0 0.8125 0.9375 0.625 0.9375 0.3125 0 0 0.1956 0.9875 0.125 0 0.6875 0.5 0 0 0.25 0.75 0 0 0.5 0.5 0 0 0.3345 0.5 0 0 0.5565 0.5 0 0 0.25 0.6875 0 0.0625 0.75 0.4375 0 0 0.125 0.875 0.3125 0.625 0.75 0 0 0 0 0.375 0.8125 0.625 0 0 0 )
+( 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 )
+
+For the network to train properly, the examples MUST be in this format.
+
 The driver (main_neural_command.py) takes in the desired values for the neural network training as well as the example set, trains the network, and then outputs the accuracy and other resultant data once the network has been sufficiently trained.
 
 DESCRIPTION OF FILES:
