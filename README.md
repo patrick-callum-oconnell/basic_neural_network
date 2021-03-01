@@ -4,6 +4,8 @@ This program was written by PATRICK CALLUM O'CONNELL in November, 2020.
 
 This is a perceptron-based neural network model built from scratch in python. By "from scratch," I mean that no neural network related libraries were used. This neural network is written only with the help of the "random" and "math" libraries.
 
+NOTE: Yes, I know that this could be optimized. However, because of the relatively low size of the example input needed to train this model, it only takes about half a minute to train it to over 95% accuracy, so I didn't bother.
+
 The structure of this model is a two-layer neural network that takes in a vector representation of an 8x8 picture of a black and white hand drawn number, and outputs what number the model thinks it is. So, the first layer is made of 64 neurons which each take a value from 0.0-1.0, where 0.0 is completely white, and 1.0 is completely black. The output layer is made of 10 neurons, each representing an integer from 0-9 (which is what the network thinks the number is).
 
 Here is an example of a single example the program would use to train:
