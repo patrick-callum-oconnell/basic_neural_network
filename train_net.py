@@ -1,5 +1,11 @@
-#AUTHOR: Patrick O'Connell
-#Date: 11/10/2020
+"""AUTHOR: Patrick O'Connell
+Date: 11/10/2020
+
+This is the secondary driver function that actually specifies how the neural network is trained.
+The primary driver (main_neural_command.py) calls this function with the giving command line params to train the neural 
+network before it displays the results.
+
+"""
 
 from classes import neuralNet, exampleList
 

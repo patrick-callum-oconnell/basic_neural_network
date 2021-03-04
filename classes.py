@@ -1,5 +1,10 @@
-#AUTHOR: Patrick O'Connell
-#Date: 11/10/2020
+"""AUTHOR: Patrick Callum O'Connell
+Date: 11/10/2020 (date started)
+
+This is the file that contains the actual class files for the neural net that the other two
+driver classes use.
+
+"""
 
 import random
 import math

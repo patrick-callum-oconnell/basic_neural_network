@@ -1,5 +1,15 @@
-#AUTHOR: Patrick O'Connell
-#Date: 11/10/2020
+"""AUTHOR: Patrick Callum O'Connell
+Date: 11/10/2020
+
+This is the main driver that can be called from the command line.
+
+Here are the parameters:
+1 - split (percentage of examples used in training set (as opposed to the validation set))
+2 - edge_weight (initial edge weights)
+3 - epochs (how many epochs over which the neural network should train)
+4 - example_file (the name of the .txt file that contains the examples)
+
+"""
 
 import sys
 from train_net import train_neural_net
